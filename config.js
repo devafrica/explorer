@@ -1,6 +1,6 @@
 var api = 'http://142.93.201.191:13281';
 var donationAddress = "";
-var blockTargetInterval = 120;
+var blockTargetInterval = 90;
 var coinUnits = 85000000000000;
 var symbol = 'cpa';
 var refreshDelay = 30000;
