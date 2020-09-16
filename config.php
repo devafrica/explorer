@@ -1,6 +1,6 @@
 <?php
 return array(
-        'api' => 'http://142.93.201.191:13281',
+        'api' => 'https://blocks.cryptopay.org.za',
         'blockTargetInterval' => 90,
         'coinUnits' => 1000000
 );
