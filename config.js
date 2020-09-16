@@ -1,4 +1,4 @@
-var api = 'http://142.93.201.191:13281';
+var api = 'https://blocks.cryptopay.org.za';
 var donationAddress = "";
 var blockTargetInterval = 90;
 var coinUnits = 1000000;
