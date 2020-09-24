@@ -24,7 +24,8 @@ var networkStat = {
 
 var networkStat2 = {
   "cpa": [
-  //  ["cpa.romining.farm", "https://cpa.romining.farm/api"],
+  ["letshash.it/cpa/","https://letshash.it:8273/stats"],
+["cpacoin.my-mining-pool.de", "https://apicpacoin.my-mining-pool.de/stats"]
 
   ]
 };
