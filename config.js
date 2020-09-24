@@ -24,8 +24,8 @@ var networkStat = {
 
 var networkStat2 = {
   "cpa": [
-["letshash.it/cpa/","https://letshash.it:8273/stats"],
-["cpacoin.my-mining-pool.de", "https://apicpacoin.my-mining-pool.de/stats"]
+["letshash.it/cpa/","https://letshash.it:8273/"],
+["cpacoin.my-mining-pool.de", "https://apicpacoin.my-mining-pool.de/"]
 
   ]
 };
