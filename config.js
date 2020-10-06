@@ -2,6 +2,7 @@ var api = 'https://node.cryptopay.org.za';
 var donationAddress = "";
 var blockTargetInterval = 90;
 var coinUnits = 1000000;
+var totalSupply =  850000000000; // enter the total supply in atomic units
 var symbol = 'cpa';
 var refreshDelay = 30000;
 // pools stats by CPA Coin
