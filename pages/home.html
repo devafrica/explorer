@@ -138,7 +138,7 @@
             updateText('networkHashrate', getReadableHashRateString(lastStats.difficulty / blockTargetInterval));
             updateText('networkDifficulty', getReadableDifficultyString(lastStats.difficulty, 0).toString());
             $("time.timeago").timeago();
-            getTransactionPool();
+            getPoolTransactions();
             var currHeight = $('#blocks_rows').children().first().data('height');
             if((currHeight + 31) > lastStats.last_known_block_index) {
                 $.when(
@@ -426,7 +426,7 @@
     }
 
     //  MemPool Transactions
-    function getTransactionPool(){
+    function getPoolTransactions(){
       var xhrGetPool = $.ajax({
     	url: api + '/json_rpc',
     	method: "POST",
