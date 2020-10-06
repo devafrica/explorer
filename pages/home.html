@@ -138,7 +138,7 @@
             updateText('networkHashrate', getReadableHashRateString(lastStats.difficulty / blockTargetInterval));
             updateText('networkDifficulty', getReadableDifficultyString(lastStats.difficulty, 0).toString());
             $("time.timeago").timeago();
-            gettransaction();
+            getTransaction();
             var currHeight = $('#blocks_rows').children().first().data('height');
             if((currHeight + 31) > lastStats.last_known_block_index) {
                 $.when(
