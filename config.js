@@ -10,7 +10,7 @@ var refreshDelay = 30000;
 var networkStat = {
  "cpa": [
 ["poolparty.cryptopay.org.za", "https://partystats.cryptopay.org.za"],
-["letshash.it","https://letshash.it:8273"],
+["cpa.letshash.online","https://letshash.online:15094/live_stats"],
 ["cpacoin.my-mining-pool.de", "https://apicpacoin.my-mining-pool.de"],
 ["newpool.pw/cpa", "https://minenice.newpool.pw:8215/stats"]
 //["cpa.cryptocoins-digging.space", "https://cpa.cryptocoins-digging.space:8119"],
